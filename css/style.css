@@ -1,0 +1,103 @@
+body{
+  background: #333;
+  color: #fff;
+}
+.navbar{
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+#home-section{
+  background: url(../img/view-watch.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  min-height:700px;
+}
+#home-section .dark-overlay{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  min-height:700px;
+  background: rgba(0,0,0,0.7);
+}/*goes over image*/
+#home-section .home-inner{
+  padding-top:150px;/*move down 150px*/
+}
+#home-section .card-form{
+  opacity: 0.8;
+}/*form*/
+#home-section .fas, #create-section .fas{/*check marks*/
+  color:#004d4d;
+  background:#fff;
+  padding:5px;
+  border-radius:5px;
+}/*check marks*/
+.card-form{
+  opacity: .2 !important;
+  background-color:#000 !important;
+}
+#services-section .fas, #share-section .fas{
+  background:#66c2ff;
+  color:#fff;
+  padding: 5px;
+  border-radius: 5px;
+}/*check marks*/
+
+#services-section{
+color:#fff !important;
+ background: linear-gradient(to right bottom,rgba(59, 189, 240, 0.3), rgba(0, 0, 0, 0.4)) ,url(../img/server-room.jpg); 
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-attachment:fixed;
+  min-height:150px;
+}
+.camera{
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+#explore-section .dark-overlay{
+ 
+
+}/*goes over image*/ 
+.dark-overlay{
+  position: relative;
+  top:0;
+  left:0;
+  width:100%;
+  min-height:100px;
+  padding-top:15px;
+  background: rgba(0,0,0,0.9);
+
+  border-radius: 10px;
+}
+.lock{
+  margin:0 auto;
+  font-size:100px;
+}
+#create-section{
+  background: url(../img/server-room.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  min-height:300px;
+}
+#about-section{
+  background: linear-gradient(to right bottom,rgba(67, 65, 68, 0.6), rgba(0, 0, 0, 0.9)), url(../img/architecture-background.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:fixed;
+  min-height:300px;
+}
+.agent{
+  width:auto;
+  border-radius:0;
+  height:200px;
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  background-size: cover;
+}
+.wbg{
+	background-color:#fff;
+	padding-top:13px;
+}
